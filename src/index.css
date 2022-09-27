@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root, body, html {
+    min-height: 100vh;
+}
+
+td {
+    padding: .75rem 1.5rem;
+}
+
+table {
+    border-radius: 50rem;
+    background-color: white;
+}

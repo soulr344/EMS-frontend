@@ -1,0 +1,35 @@
+Create an Employee Management System (EMS) using recommended library frameworks (ReactJS, Angular 2+). 
+The project must have the following features:
+
+Login
+DONE    Username/Email & password to login
+NOTDONE    Username/Email field validation
+DONE    Password must be at least 8 characters long, must contain at least 1 uppercase letters, 1 special characters etc
+
+Dashboard
+DONE    Display a dashboard with various components. (use your imagination)
+DONE    Use static data for dashboard components.
+DONE    Dashboard must have at least one bar chart, one card, one graph chart.
+
+User List
+DONE    Display a grid with existing users, each row should contain edit/delete icons
+DONE    Add button should allow user to add a new user
+DONE    Proper validation should be maintained
+DONE    Add Search input box for filtering
+DONE    Add Sorting on each column of the grid
+
+Routing and Navigation
+DONE    Routing must be implemented for various screens
+DONE    Route path should be validated
+
+Authentication
+DONE    Access to the dashboard only for authenticated users
+DONE    User must not be able to navigate screens like dashboard, user listing unless authenticated
+
+UI Library
+DONE    Any of the popular UI libraries must be used to make the application look more appealing. For eg: bootstrap tailwind etc
+
+Addons
+NEAH    Can add toaster to display messages after any action like add, update, delete is performed
+
+(Please note that API’s are optional. You can use local storage or memory to store and retrieve data.)
